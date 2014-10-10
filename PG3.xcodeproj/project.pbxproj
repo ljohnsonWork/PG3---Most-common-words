@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D39B88819D48D5700834876 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D39B88719D48D5700834876 /* main.cpp */; };
+		0D39B88819D48D5700834876 /* PG3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D39B88719D48D5700834876 /* PG3.cpp */; };
+		0D39B89419D4958700834876 /* LL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D39B89219D4958700834876 /* LL.cpp */; };
+		0D39B89719D495BE00834876 /* LLN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D39B89519D495BE00834876 /* LLN.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,12 @@
 
 /* Begin PBXFileReference section */
 		0D39B88419D48D5700834876 /* PG3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PG3; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D39B88719D48D5700834876 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0D39B88719D48D5700834876 /* PG3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PG3.cpp; sourceTree = "<group>"; };
+		0D39B88E19D48D6D00834876 /* PG3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PG3.h; sourceTree = "<group>"; };
+		0D39B89219D4958700834876 /* LL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LL.cpp; sourceTree = "<group>"; };
+		0D39B89319D4958700834876 /* LL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LL.h; sourceTree = "<group>"; };
+		0D39B89519D495BE00834876 /* LLN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LLN.cpp; sourceTree = "<group>"; };
+		0D39B89619D495BE00834876 /* LLN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLN.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,12 @@
 		0D39B88619D48D5700834876 /* PG3 */ = {
 			isa = PBXGroup;
 			children = (
-				0D39B88719D48D5700834876 /* main.cpp */,
+				0D39B88719D48D5700834876 /* PG3.cpp */,
+				0D39B88E19D48D6D00834876 /* PG3.h */,
+				0D39B89219D4958700834876 /* LL.cpp */,
+				0D39B89319D4958700834876 /* LL.h */,
+				0D39B89519D495BE00834876 /* LLN.cpp */,
+				0D39B89619D495BE00834876 /* LLN.h */,
 			);
 			path = PG3;
 			sourceTree = "<group>";
@@ -118,7 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D39B88819D48D5700834876 /* main.cpp in Sources */,
+				0D39B89719D495BE00834876 /* LLN.cpp in Sources */,
+				0D39B88819D48D5700834876 /* PG3.cpp in Sources */,
+				0D39B89419D4958700834876 /* LL.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
